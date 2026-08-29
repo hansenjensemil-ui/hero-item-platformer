@@ -26,6 +26,8 @@ func tex(name: String) -> Texture2D:
 func _from_data(name: String) -> Texture2D:
 	var b64 := ArtData.b64(name)
 	if b64.is_empty():
+		b64 = ArtDataRelics.b64(name)
+	if b64.is_empty():
 		return null
 	b64 = b64.strip_edges().replace("\n", "").replace("\r", "").replace(" ", "")
 	while b64.length() % 4 != 0:

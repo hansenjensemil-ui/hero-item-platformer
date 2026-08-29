@@ -37,7 +37,7 @@ static func b64(name: String) -> String:
 				"FpxYNTKhrU4B7S7ReqpFExWCS7N5dtgmVVsB8PBiQHem5p0rCx+8e3VhZ2cdthVMM+qyUZIp",
 				"GbJbFeuNSrWWg6h9vS3feSbA48gUYFGyv93h2GTnWL6ut/01mHxAzmTZmlatSgAuUPpsfKEk",
 				"dLrk9orBQMEtt0opI9Z+rwtf/ftYYte+i4kzizHcK0wS1iH/8lghsbbRflIVyctXkobg1wRu",
-				"WnAtVNh4k0fb2EiME6kq3zprkGpvp/ulNn/NjrKF4NT1uO1xr6QYlfybYp3vVVkU1k3HcvZO",
+				"WnAtVNh4k0fb2EiME6kq3zprkGpvp/ulNn/NjrKF4NT1O1xr6QYlfybYp3vVVkU1k3HcvZO",
 				"l+wnnBsMIG6Z3NxzKrb14+lSaTAEaXTu7mm9b1KGo2CDgFT3o0JsbETd5lZoi08hNM+oOJep",
 				"XLRrsnusJDZnq+ZUR6tn7eb1zaqvVtXiybIvly0Tixnvf7CgeFvqba+fv5k8VCsLTzSo1Nbs",
 				"EKSCCZqt8jfPxYsnBkOQ9o3CuLf+g0YXowAfHgb8mupostMRznmQE1JXZOieThSu2GR5Im/y",
@@ -182,7 +182,7 @@ static func b64(name: String) -> String:
 				"oDv9+JOhXjOcRdP3V+qmc/maLZP/vDfDpgHo0VeZ5LmMHHV81nPqfBXcgJKIKpP55RaxTQ8Z",
 				"jJALGrUB6DNByD4O8Kq99vETr+44kiTuclxG1uuWlM5ESaXlCQIhpCMdEaRoJKaBRELOaydO",
 				"ADsCIEy+Ot2Ta9wO/qv8wdcOSFu7kzclozIKKJYKmWjcpxQammlYTuAbrt8q686pn7HnrpbK",
-				"5kLyjzKxyP2phIhdn2FCSNDUXdfzA0gnlN6W4dBy3X5vw/cXr7FZfiH+F0Wqhio4yxYNAAAA",
+				"5kLyjzKxyP2phIhdn2FCSNDUXdfzA0gnlN6W4dByX5vw/cXr7FZfiH+F0Wqhio4yxYNAAAA",
 				"AElFTkSuQmCC",
 			]))
 		"bush":
@@ -191,33 +191,6 @@ static func b64(name: String) -> String:
 				"/mMTt5lyg5EiC3AZjM8irBas8FDAMEhGhYMkX8IsYSRkMDmGI1vCQsjwJx/+MDw58wWrARYm",
 				"PMRFMjbDn3z4Q7RL8VnERKnhDAwMDCdw+JCBgYGBiVLDCVnCROuMRlMLbKbcYGSK2PGAkeY+",
 				"QLZERoCFLIPQUxIso8GDiBJLcBlOVFGBL1XhMxgGALFXPUjzxPiuAAAAAElFTkSuQmCC",
-			]))
-		"emberblade":
-			return "".join(PackedStringArray([
-				"iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAIeElEQVR42rWXe3BU5RnGf985",
-				"Zze7m93cdkPuCQmhQLgaiAEEogYrWsVWJNU61s7YFpxasY7U6bQOo6OdTr2OYmesU6lVrJNo",
-				"kaGtiIjBKo2MgEgNkAuBhGCum7Cb3c3unnPe/kHUSBGB6vPP9/11nmfe532f7z063ww0QAAK",
-				"08gKKbIxSQcmTYSflGU5bgoUpVt9g6PtxtfFKGOk6tRpUU5KZju/sULceDlkVmRjpMx0yxUu",
-				"lTavIsV+Jz3Lf/19Q+8ZF0im1GfXU1Bgj52WR2dpUZu6bway5KY5iuqlOgWFBiQUsR5lu/tD",
-				"RqJraAaQfUEC1DjietDrwP6wgktm+2k3djF7ksVTdxRK+fIal5mzWGl0xFXHGwkGW2wykkjO",
-				"dYbV1Ki605Ch8yKuX4kOUF/ALX8pYPanZgNsK2f+Qjf1hajhR/M0sZ4rMGV9qoRX6PL2BOTt",
-				"ALIpHQkuxu55xGGWGWrACdO08xFQ13CqzCeSbKvIpRUgG0o9kFfXRt1ATN1wY4qkr/r1dNEm",
-				"TdBD/4rw/jsWgQywvBBwQOYsh/1Bh+iWyIaE4qBx/vaj7uqjlz5cgK7AnaV4PgO1uFZE7rk1",
-				"U1JnGSr8egt731eUZsOAKUSHYXqxgom6vPhswuq1GEYD4wLGywbKri9Rm7u75eUuE2+eUovn",
-				"K7HurnNrOctzVezAEVq3RJiaruhPCMf7FRdnCbnf9cixUY/WeaTftn3OBhVOnBvrStB/Co51",
-				"NRhAyb0lqqm5VpNqg+FKpcltYHfcViCytVRG6sukaXGqdM9WcqBCyQYv0jIRsVfrMvSAbt46",
-				"BQnAk2NjpJ1j03/hMrnGg7ncSXyGUvZtYLfeUiDyXo1E36iS95cWyNFpyJ4KJX/yIB+XI/Hr",
-				"kfB6w75jim6nwRHcFIx9TjurgnVj4XKlm+VvlXO7DlW5irWHowy1JJRZK6LWrMinfO08TAr5",
-				"+LFestq7abUVu9uEqgkwcTroNYY8t8Gy6w9b4esyadyVRxagBORsPaCmg3JDweW52gN/DkpB",
-				"OnLCB7NygLmGYlWtg2lrpihrxM8Hq7eQGernoFPjWIdNTb5iygINY4Hi6Zds2bJHdFvjTcPk",
-				"o2cGmAUcqOPUWH+p75qmmAK+Io2/ZUDnZDB/kIL5eLqS1mWayDPpknhtqbw7J08OFiM7Zuny",
-				"sBNpKkTCy5XIoy7ZVqnb3wYrX6PLBSWcItXHd/UZ0YCybFu8hyEvZkOOomiWjtxdib7qWp3i",
-				"ahfJ1Ay2P9KMo/sTggGdva0WNbkws1rDW+ti55YEj+61pB0k18Zd4+UqBZaMxfaXCVCAs9Yt",
-				"K+5cNmdrbYbjBb/G90oFuatGNy76eSF4Bc3v4t2NfXgPnoAcjV2HLKozYOZMDc/FTnZvNnm2",
-				"0ba7dTTbi/7gdzT/nCy1SsAYC3L1PwLWgaZASt36lbVXVTdcXVV2SaGbPGXTef8ipRb9LF20",
-				"Ew5chsGmp4Lo+2LouYrGNpvKTEXlJHBd4WTfXpPHdyTtQxpar8WbVS51qO24SEen3A6Yderz",
-				"59o4ve3lfijN9+uujHTZ8FqTlAacgaxBS+sO2dK8Maja/x20Wmz0eW6NHp9woEVYEoB5eYJn",
-				"qcaQIax/zZT9ChUV2gUekgFpu3OADODIKXs/t+ALXThhJ1oziB1P",
 			]))
 		"hero":
 			return "".join(PackedStringArray([
@@ -341,6 +314,51 @@ static func b64(name: String) -> String:
 				"TxQaY5wTSloG0vZcxOJ0oug1UJ/OLPry9BMTc/PnhLFe2pLsiVFkNEA0UW1MkVktiExGDDAL",
 				"MQPKb3CYkYoata+9OL0HAPl/TvNpWickMu4AAAAASUVORK5CYII=",
 			]))
+		"lantern":
+			return "".join(PackedStringArray([
+				"iVBORw0KGgoAAAANSUhEUgAAABAAAAAYCAYAAADzoH0MAAAAcklEQVR42mNgGAWM6AJRQV7/",
+				"8WlYtm4bih4mSl3ARIrt2NRQzwXE2I5NLUYg5qVE4TVo0pxlKHpYsCmaGPAGq+b8DSL4A5Hi",
+				"WBg1gDzAQmx0DTEvMDAwMDx68gyFLycjRVyBAgMBHg4oeWLDjgOMgzMMAEelGzNlIsmCAAAA",
+				"AElFTkSuQmCC",
+			]))
+		"slash":
+			return "".join(PackedStringArray([
+				"iVBORw0KGgoAAAANSUhEUgAAABgAAAAQCAYAAAAMJL+VAAAAW0lEQVR42mNkIAD+b7H5j0+e",
+				"0ecII155cgwlxTJGggbbVOA39UgHXosYcRpOyGACFsEsYcQwHM1gRgEfvGH8/8OW/7gsYvQ5",
+				"wsiCy9WEDEZXh2HRKBgFo2AYAQDe1yMcuu3segAAAABJRU5ErkJggg==",
+			]))
+		"slime":
+			return "".join(PackedStringArray([
+				"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",
+			]))
 		"tiles":
 			return "".join(PackedStringArray([
 				"iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAEbElEQVR42u2aP2gUWRzHv7ME",
@@ -366,6 +384,19 @@ static func b64(name: String) -> String:
 				"PFz/xibwZywDPdcA8ing5z8N9OJ28FlhSF3PXfYBBm0ZYAXow30A3WaQfMzNIEIIIYQQQggh",
 				"hBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhPQb3wF6bEzC0PswRwAAAABJRU5ErkJg",
 				"gg==",
+			]))
+		"tree":
+			return "".join(PackedStringArray([
+				"iVBORw0KGgoAAAANSUhEUgAAADAAAABACAYAAABcIPRGAAAB4UlEQVR42u2YMW7CMBSGn60K",
+				"daqqTgwdEOqAGKoOjB05QA/AEaIeoweoOAIH4ACMjFGFGCqGDhkYUAeEqg4MqOkUmiaOsZ+f",
+				"k6C8X2KJEvN97zm2AYDDaXYE5WDT4V1seu/T7EPUQsAG2oeM8AE+GN0WPhdO1qQiggpcB20r",
+				"YyMifFccK2EqIquEP/W8yfslq4RPj7PeHWC9O1hLSB+VQ61EQQcA4CiikrEWoFgiXZKI6Dgk",
+				"nEF03ZCY6nf7rdIlxoNO7NSBbr91/FQVlYQ0Bc9m+/ZJCjcdRygJeQpeFyoJU3irKWQ6VVwl",
+				"MPDpLigFls99q+UTK+FS+cKzkC381/Ynd60zbBfeH802uWuL1R4FH4SRENTw2GAkgjAS6I2M",
+				"Eh4A4KF36fYS21SfGt5FQlZdeVcJWSd4jMRZHOZIBMqqvmkXgjASzepAnZJU/5/A/eu74A6U",
+				"XP2cQN27kIVXdqCuEir4wimkkri6KXe2pQ93RfDK47TudFrmXrBY7bXgRgJVSTxOVvR/7qZF",
+				"fErYwFsJZGV8SNjCowWSzEe9uEp4540M+6WU45Ct+ZhuUBTAy6alk6HqWpILHwIvy29oX/+d",
+				"5ze7PfgK/x5gARZgARZgARZgARZgARZgARZggaYK/ALRLNmUyuGSNQAAAABJRU5ErkJggg==",
 			]))
 		_:
 			return ""

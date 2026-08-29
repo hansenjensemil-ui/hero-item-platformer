@@ -4,6 +4,8 @@
 
 Original painted sprites (hero, relics, enemies, dusk vale) were keyed, cropped, and imported as nearest-neighbor pixel art. Collision tiles are crisp 16×16 so platforms stay fair.
 
+Sprites are SVG files under `godot/assets/` plus embedded PNG bytes in `godot/scripts/ArtData.gd`. Art.gd loads PNG, then SVG, then ArtData, then a placeholder. It never opens `.b64` files. Those were removed because GitHub truncated them (sky.b64 was 1 byte short / incorrect padding) and `Marshalls.base64_to_raw` on the invalid data crashed the Godot editor when Title loaded sky/hero at launch.
+
 The HTML Canvas version is still at `index.html` if you want the browser build.
 
 ## How to run (Godot)

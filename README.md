@@ -47,4 +47,5 @@ Tap jump for a hop, hold for a full leap. Stomp slimes and brutes; bats still hu
 
 - index.html — page shell
 - css/style.css — layout around the canvas
-- js/game.js — level, physics, combat, drawing, audio
+- js/engine.js — level, physics, combat
+- js/draw.js — rendering, HUD, screens, loop

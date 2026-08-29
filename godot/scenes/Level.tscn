@@ -1,0 +1,34 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/Level.gd" id="1_script"]
+[ext_resource type="PackedScene" path="res://scenes/HUD.tscn" id="2_hud"]
+
+[node name="Level" type="Node2D"]
+texture_filter = 0
+script = ExtResource("1_script")
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="SkyLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.12, 0.04)
+motion_mirroring = Vector2(640, 0)
+
+[node name="Sky" type="Sprite2D" parent="ParallaxBackground/SkyLayer"]
+texture_filter = 0
+centered = false
+position = Vector2(0, 40)
+
+[node name="Terrain" type="TileMapLayer" parent="."]
+texture_filter = 0
+
+[node name="Platforms" type="TileMapLayer" parent="."]
+texture_filter = 0
+
+[node name="Decor" type="TileMapLayer" parent="."]
+texture_filter = 0
+
+[node name="World" type="Node2D" parent="."]
+
+[node name="Actors" type="Node2D" parent="."]
+
+[node name="HUD" parent="." instance=ExtResource("2_hud")]

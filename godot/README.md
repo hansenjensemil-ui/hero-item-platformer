@@ -1,10 +1,10 @@
 # Embervale Relics (Godot 4.7.2)
 
-The real game. Open this folder in **Godot 4.7.2** (`project.godot`) and press **F5**.
+The real game. Open `project.godot` in **Godot 4.7.2** and press **F5**.
 
-Original painted sprites (hero, relics, enemies, dusk vale) were keyed, cropped, and imported as nearest-neighbor pixel art. Collision tiles are crisp 16×16 so platforms stay fair.
+Uses the **GL Compatibility** renderer (not Forward Plus) so the editor can start on Linux without Vulkan.
 
-Sprites are SVG files in `assets/` plus embedded PNG bytes in `scripts/ArtData.gd`. Art.gd loads PNG, then SVG, then ArtData, then a placeholder. It never opens `.b64` files. Those were removed because GitHub truncated them (sky.b64 was 1 byte short / incorrect padding) and `Marshalls.base64_to_raw` on the invalid data crashed the editor when Title loaded sky/hero at launch.
+Sprites are embedded PNG bytes in `scripts/ArtData.gd`. Art.gd loads only those bytes, with a procedural sky fallback. Do not add `.b64` files or pixel-rect SVGs — GitHub truncates `.b64`, and hundreds of 1×1 `<rect>` fills crash Godot 4.7.2's importer the moment the project is opened.
 
 ## Controls
 
